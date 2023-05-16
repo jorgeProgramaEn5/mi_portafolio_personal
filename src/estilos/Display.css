@@ -1,0 +1,10 @@
+.display_content {
+	border: solid 5px blueviolet;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 150px;
+	margin: 10px;
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.boton {
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    color:  #423e3d;
+    font-weight: bold;
+    border: solid 1px #fff;
+}
+
+.btn-click {
+    background-color:  #6ec1cc;
+}
+
+.btn-reiniciar {
+    background-color: #e78c48;
+}
+
+.btn-click:hover {
+    background-color:  #5890c0;
+}
+
+.btn-reiniciar:hover {
+    background-color:  #b16041;
+}
