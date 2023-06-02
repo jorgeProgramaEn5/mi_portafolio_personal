@@ -33,13 +33,13 @@ function BasicExample() {
     <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <div className='logo-container' onClick={()=>onUpdateActiveLink('home')}><img src={logo} alt="Logo" /></div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
           <span className='navbar-toggler-icon'></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-center">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link' } onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link' } onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link' } onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
@@ -51,7 +51,7 @@ function BasicExample() {
               <a href="#!"><img src={instagram} alt="instagram" /></a>
               <a href="#!"><img src={twitter} alt="twitter" /></a>
             </div>
-            <button className='btn btn-outline-primary' onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
+            <button className='btn-connet' onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>

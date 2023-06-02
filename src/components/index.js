@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-// import Hero from "./Hero";
+import Banner from "./Banner";
 // import Card from "./Card";
 // import ListCard from "./ListCard";
 // import Texto from "./Texto";
@@ -8,7 +8,7 @@ import NavBar from "./NavBar";
 
 export {
     NavBar,
-//     Hero,
+    Banner,
 //     Card,
 //     ListCard,
 //     Texto,

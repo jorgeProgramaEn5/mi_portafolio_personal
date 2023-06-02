@@ -1,10 +1,13 @@
 import './estilos/App.css';
-import { NavBar } from './components';
+import { NavBar, Banner } from './components';
 
 
 const App = ()=>{
   return (
-    <NavBar />
+    <>
+      <NavBar />
+      <Banner />
+    </>
   );
 }
 
