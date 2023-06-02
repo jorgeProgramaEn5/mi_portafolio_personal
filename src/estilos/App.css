@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 .contenedor_img{
-/*  height: 100px;*/
+ height: 100px;
 }
 
 .contendor_boton{
@@ -63,4 +63,35 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* fonts */
+
+/* @font-face {
+  font-family: Centra;
+  src: url('./');
+  font-weight: 700;
+
+} */
+
+/* default css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #f1f1f1 !important;
+  color: #121212 !important;
+  font-family: sans-serif;
 }

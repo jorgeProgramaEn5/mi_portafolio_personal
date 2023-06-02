@@ -1,5 +1,5 @@
 import './estilos/App.css';
-import NavBar from './componentes/NavBar';
+import { NavBar } from './components';
 
 
 const App = ()=>{
