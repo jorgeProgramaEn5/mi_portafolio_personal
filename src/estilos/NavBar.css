@@ -5,6 +5,7 @@
 
 .logo-container {
     width: 56px;
+    padding-top: 5px;
 }
 
 nav.navbar {
@@ -14,12 +15,12 @@ nav.navbar {
     top: 0;
     z-index: 9999;
     transition:  0.32s ease-in-out;
-    background-color: rgba(254, 253, 255, 0.97);
+    background-color: #f1f1f1;
 }
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: #1a1919;
+    background-color: #f1f1f1;
 }
 
 nav.navbar a.navbar-brand {
@@ -193,10 +194,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
   
     .navbar-text {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .btn-connet {
-        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .social-icon a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icon a::before {
+        content: "";
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-text button {
+        font-weight: 300;
+        padding: 8px 10px;
+        font-size: 16px;
+        margin-left: 0px;
     }
   }
