@@ -1,8 +1,46 @@
-.banner {
-	margin-top: 118px;
-	background-color: aqua;
-}
-
 /* .imgHeader {
 	width: 400px;
 } */
+
+.banner {
+	margin-top: 0;
+	padding: 200px 0 100px 0;
+	background-image: url('../Assets/bgBanner.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-color: aqua; */
+}
+
+.banner .tagline {
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	padding: 8px 10px;
+	/* background: linear-gradient(90.21deg, rgba(47, 91, 235, 0.5) -5.91%, rgba(255, 110, 66, 0.979) 111.58%); */
+	/* background-color: rgb(255, 124, 62); */
+	color: rgb(255, 124, 62);
+	border: 1px solid rgb(255, 124, 62);
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: 16px;
+	display: inline-block;
+  }
+
+  .btn-connect {
+	background-color: rgb(121, 88, 215);
+	border: 1px solid rgb(121, 88, 215);
+	border-radius: 10px;
+	padding: 10px;
+	color: #fff;
+  }
+  
+
+@media only screen and (max-width: 576px) {
+	.banner {
+		background-image: url('../Assets/bgBannerCell.png');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+}

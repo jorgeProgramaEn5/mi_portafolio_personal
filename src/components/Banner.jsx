@@ -55,7 +55,7 @@ const Banner = ()=>{
                 porro reiciendis, explicabo neque aut rem! Natus dicta molestiae 
                 autem veniam.
               </p>
-             <button className='btn btn-outline-primary' onClick={()=> console.log('connect')}><span>Let's Connect <BsArrowRightCircle size={25} /></span></button>
+             <button className='btn-connect' onClick={()=> console.log('connect')}><span>Let's Connect <BsArrowRightCircle size={25} /></span></button>
             </Col>
             <Col xs={12} md={6} xl={5}>
               <div className='imgHeader'>
