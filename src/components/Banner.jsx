@@ -1,8 +1,11 @@
 import '../Style/Banner.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import { BsArrowRightCircle } from 'react-icons/bs';
 import { header720x720 } from '../Assets';
 import { useState, useEffect } from 'react';
+import { FaReact, FaBootstrap, FaPlus } from 'react-icons/fa'
+import { BsArrowRightCircle } from 'react-icons/bs';
+import { TbBrandNextjs, TbBrandTailwind } from 'react-icons/tb';
+import { SiJavascript } from 'react-icons/si';
 
 const Banner = ()=>{
 
@@ -49,7 +52,7 @@ const Banner = ()=>{
             <Col xs={12} md={6} xl={7}>
               <span className='tagline'>Welcome to my Portfolio</span>
               <h1>{`I'm `}<span className='wrap'>{text}</span></h1>
-              <p>
+              <p className='p-text'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis 
                 ratione pariatur rem. Magni ad dolorem numquam mollitia ducimus eos 
                 porro reiciendis, explicabo neque aut rem! Natus dicta molestiae 
@@ -60,6 +63,16 @@ const Banner = ()=>{
             <Col xs={12} md={6} xl={5}>
               <div className='imgHeader'>
                 <img src={header720x720} alt="Headder" />
+              </div>
+              <div className='target'>
+                <div className='target-container'>
+                  <div><FaReact size={30} /></div>
+                  <div><TbBrandNextjs size={30} /></div>
+                  <div><TbBrandTailwind size={30} /></div>
+                  <div><FaBootstrap size={30} /></div>
+                  <div><SiJavascript size={30} /></div>
+                  <div><FaPlus size={35} /></div>
+                </div>
               </div>
             </Col>
           </Row>
