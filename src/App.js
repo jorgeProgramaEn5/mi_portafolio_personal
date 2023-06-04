@@ -1,5 +1,5 @@
-import './estilos/App.css';
-import { NavBar, Banner } from './components';
+import './Style/App.css';
+import { NavBar, Banner } from './Components';
 
 
 const App = ()=>{

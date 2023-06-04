@@ -1,4 +1,4 @@
-import '../estilos/Banner.css';
+import '../Style/Banner.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { header720x720 } from '../Assets';
